@@ -1,0 +1,18 @@
+.active-navLink {
+    color: #88b2be;
+    font-weight: bold;
+    background-color: #3c3c3c;
+    border-radius: 10px;
+}
+
+.navLink {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.navLink:hover {
+    background-color: #3c3c3c;
+    border-radius: 10px;
+}
