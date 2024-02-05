@@ -1,3 +1,8 @@
+.navList {
+    display: grid;
+    grid-auto-flow: row;
+}
+
 .active-navLink {
     color: #88b2be;
     font-weight: bold;
@@ -7,7 +12,6 @@
 
 .navLink {
     display: block;
-    margin-bottom: 10px;
     padding: 5px;
     font-size: 1.25rem;
 }
@@ -16,3 +20,4 @@
     background-color: #3c3c3c;
     border-radius: 10px;
 }
+

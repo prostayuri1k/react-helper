@@ -1,7 +1,9 @@
 *, *:after, *:before{
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+}
+
+b {
+  color: #fe8d59;
 }
 
 a:hover {
@@ -12,13 +14,25 @@ a.active {
   color: #88b2be;
 }
 
+button {
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  background-color:#3c3c3c;
+}
+
+button:hover {
+  background-color: #c7c7c7;
+}
+
 .App {
   text-align: center;
   background-color: #282c34;
   min-height: 100vh;
   color: white;
   display: grid;
-  grid-template-rows: 10% auto 10%;
+  grid-template-rows: 1fr auto 1fr;
   gap: 20px;
 }
 
@@ -37,6 +51,10 @@ header div {
   font-weight: bold;
 }
 
+.header_title {
+  color: #88b2be;
+}
+
 main {
   display: grid;
   grid-template-columns: 20% auto;
@@ -51,11 +69,26 @@ nav {
 }
 
 .main_page {
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 footer {
   background-color: #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.content {
+  text-align: left;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.counter p {
+  margin-right: 25px;
+}
 

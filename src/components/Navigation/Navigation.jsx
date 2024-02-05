@@ -22,7 +22,7 @@ const Navigation = () => {
 
     const setIsActive = ({isActive}) => isActive ? 'navLink active-navLink' : 'navLink';
     return (
-        <div>
+        <div className='navList'>
             {navLinks.map(el =>
                     <NavLink className={setIsActive} to={`${el.path}`}>{el.name}</NavLink>
                 )}

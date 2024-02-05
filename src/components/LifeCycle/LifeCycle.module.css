@@ -1,0 +1,11 @@
+ul li {
+    list-style-type: none;
+}
+
+.list_item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.ul_list_item {
+    margin-bottom: 10px;
+}
